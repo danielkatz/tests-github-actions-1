@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ( startsWith( 'yakir/elementor', 'yakir/' ) || startsWith( 'yakirssss/elementor', 'yakir/' ) )
+    if: ( startsWith( 'yakir412/elementor', 'yakir/' ) || startsWith( 'yakirssss/elementor', 'yakir/' ) )
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
